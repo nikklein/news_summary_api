@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <title>postIt</title>
+
+</head>
+
+<body>
+
+    <form id="Form">
+      <input id="message"></input>
+      <button id="createMessage" type="button" onclick="createMessageClick()">Post</button>
+    </form>
+
+  <div id="messages">
+
+    <h1></h1>
+
+  </div>
+
+  <div id="currentMessage" name="NOTES">
+    <h2></h2>
+  </div>
+      <script src="views/notes-view.js"></script>
+      <script src="views/singleNoteView.js"></script>
+      <script src="models/storage.js"></script>
+      <script src="models/noteList.js"></script>
+      <script src="models/note.js"></script>
+      <script src="controllers/viewNote.js"></script>
+      <script src="controllers/createNote.js"></script>
+      <script src="test/testy.js"></script>
+      <script src="test/testydescribe.js"></script>
+      <script src="test/features.js"></script>
+
+</body>
+</html>
